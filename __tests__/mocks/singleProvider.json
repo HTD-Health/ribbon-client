@@ -1,0 +1,1381 @@
+{
+  "parameters": {
+    "totalCount": 1
+  },
+  "data": [
+    {
+      "npi": "123",
+      "firstName": "enim",
+      "middleName": null,
+      "lastName": "eiusmod aute non nostrud enim",
+      "age": 38,
+      "gender": "officia dolor",
+      "ratingsCount": 89538047,
+      "ratingsAvg": 94453780.66570845,
+      "degrees": [
+        "sed"
+      ],
+      "educations": [
+        {
+          "type": "pariatur elit tempor",
+          "education": {
+            "name": "do commodo tempor velit",
+            "uuid": "pariatur ea aute dolor"
+          }
+        },
+        {
+          "type": "fugiat do",
+          "education": {
+            "name": "minim ut",
+            "uuid": "veniam consectetur dolor"
+          }
+        }
+      ],
+      "isPcp": true,
+      "specialties": [
+        {
+          "uuid": "qui sit",
+          "taxonomyCode": "officia",
+          "boardSpecialty": "cillum aliqua ad Excepteur",
+          "boardSubSpecialty": "sint dolore incididunt consectetur qui",
+          "nonMdSpecialty": null,
+          "nonMdSubSpecialty": null,
+          "providerName": "qui velit dolore",
+          "colloquial": "sunt sint eiusmod est ullamco",
+          "display": "elit nostrud officia",
+          "taxonomy1": "officia laborum aliqua deserunt",
+          "taxonomy2": "adipisicing enim exercitation incididunt",
+          "taxonomy3": "est in",
+          "providerType": "nostrud",
+          "isPrimary": true
+        },
+        {
+          "uuid": "non Excepteur do Lorem",
+          "taxonomyCode": "sint ullamco",
+          "boardSpecialty": "aliqua ad anim",
+          "boardSubSpecialty": "minim",
+          "nonMdSpecialty": null,
+          "nonMdSubSpecialty": null,
+          "providerName": "fugiat sint exercitation non",
+          "colloquial": "dolor minim in",
+          "display": "ad laborum",
+          "taxonomy1": "cupidatat cillum",
+          "taxonomy2": "dolor exercitation ea aliquip deserunt",
+          "taxonomy3": null,
+          "providerType": "sunt",
+          "isPrimary": false
+        }
+      ],
+      "providerTypes": [
+        "adipisicing reprehenderit in"
+      ],
+      "languages": [
+        "do ea",
+        "ea occaecat eiusmod eu enim",
+        "voluptate et proident cupidatat",
+        "quis dolor cupidatat"
+      ],
+      "insurances": [
+        {
+          "uuid": "eiusmod",
+          "carrierAssociation": "Duis non deserunt",
+          "carrierBrand": "nostrud",
+          "carrierName": "cillum pariatur consequat sunt",
+          "state": null,
+          "planName": "tempor magna irure sit",
+          "planType": null,
+          "metalLevel": null,
+          "displayName": "dolor",
+          "network": null,
+          "confidence": -7237870,
+          "category": "consectetur amet",
+          "codes": []
+        },
+        {
+          "uuid": "consectetur dolore enim",
+          "carrierAssociation": "adipisicing irure",
+          "carrierBrand": "pariatur",
+          "carrierName": "sit voluptate ea sunt",
+          "state": null,
+          "planName": "reprehenderit minim",
+          "planType": "est",
+          "metalLevel": null,
+          "displayName": "et exercitation",
+          "network": null,
+          "confidence": 75623344,
+          "category": "sunt aliqua magna cillum reprehenderit",
+          "codes": []
+        },
+        {
+          "uuid": "tempor in ea velit voluptate",
+          "carrierAssociation": "ea aute quis fugiat",
+          "carrierBrand": "aliquip sint ut fugiat id",
+          "carrierName": "in",
+          "state": null,
+          "planName": "enim fugiat sunt eu",
+          "planType": "do adipisicing",
+          "metalLevel": null,
+          "displayName": "ut",
+          "network": null,
+          "confidence": 21326875,
+          "category": "nulla",
+          "codes": []
+        },
+        {
+          "uuid": "dolor qui sed Duis",
+          "carrierAssociation": "ut consequat nisi mollit",
+          "carrierBrand": "magna adipisicing",
+          "carrierName": "qui tempor exercitation laborum dolore",
+          "state": null,
+          "planName": "commodo quis sint ut reprehenderit",
+          "planType": null,
+          "metalLevel": null,
+          "displayName": "fugiat tempor ex laboris amet",
+          "network": null,
+          "confidence": 23595846,
+          "category": "Excepteur do deserunt consequat veniam",
+          "codes": []
+        },
+        {
+          "uuid": "ex",
+          "carrierAssociation": "amet",
+          "carrierBrand": "fugiat ullamco",
+          "carrierName": "eu aute sint",
+          "state": null,
+          "planName": "fugiat deserunt",
+          "planType": "in aliqua sint",
+          "metalLevel": null,
+          "displayName": "quis irure incididunt",
+          "network": null,
+          "confidence": -96931734,
+          "category": "reprehenderit in",
+          "codes": []
+        },
+        {
+          "uuid": "aliquip",
+          "carrierAssociation": "do",
+          "carrierBrand": "ea dolore esse est adipisicing",
+          "carrierName": "dolore nostrud",
+          "state": null,
+          "planName": "velit",
+          "planType": "minim occaecat id incididunt dolor",
+          "metalLevel": null,
+          "displayName": "dolor in incididunt",
+          "network": null,
+          "confidence": 39415108,
+          "category": "sunt in dolore dolor laborum",
+          "codes": []
+        },
+        {
+          "uuid": "veniam magna velit sit Duis",
+          "carrierAssociation": "occaecat do cupidatat cillum minim",
+          "carrierBrand": "commodo exercitation",
+          "carrierName": "incididunt",
+          "state": null,
+          "planName": "anim magna",
+          "planType": null,
+          "metalLevel": null,
+          "displayName": "fugiat",
+          "network": null,
+          "confidence": 43908692,
+          "category": "eiusmod ex",
+          "codes": []
+        },
+        {
+          "uuid": "do id ex in consectetur",
+          "carrierAssociation": "est in nisi mollit dolor",
+          "carrierBrand": "adipisicing",
+          "carrierName": "ea deserunt",
+          "state": null,
+          "planName": "Excepteur commodo ea",
+          "planType": null,
+          "metalLevel": null,
+          "displayName": "eiusmod laborum ea nostrud in",
+          "network": null,
+          "confidence": 64707785,
+          "category": "consectetur anim in nisi",
+          "codes": []
+        },
+        {
+          "uuid": "non culpa aliqua anim",
+          "carrierAssociation": "mollit aute ut Duis proident",
+          "carrierBrand": "non",
+          "carrierName": "ad",
+          "state": null,
+          "planName": "sint nisi et culpa aute",
+          "planType": "in consequat",
+          "metalLevel": null,
+          "displayName": "nisi Ut sint",
+          "network": null,
+          "confidence": -87629730,
+          "category": "minim et quis",
+          "codes": []
+        },
+        {
+          "uuid": "ut in",
+          "carrierAssociation": "enim reprehenderit Ut",
+          "carrierBrand": "magna",
+          "carrierName": "id",
+          "state": null,
+          "planName": "elit quis labore ipsum",
+          "planType": "officia",
+          "metalLevel": null,
+          "displayName": "elit aliquip ex",
+          "network": null,
+          "confidence": -20316576,
+          "category": "dolore cillum ut quis",
+          "codes": []
+        },
+        {
+          "uuid": "nostrud dolor aliqua id",
+          "carrierAssociation": "in ex",
+          "carrierBrand": "adipisicing amet magna",
+          "carrierName": "cillum",
+          "state": null,
+          "planName": "non minim veniam",
+          "planType": "nostrud",
+          "metalLevel": null,
+          "displayName": "aute consequat labore",
+          "network": null,
+          "confidence": 69944795,
+          "category": "veniam consequat proident nisi",
+          "codes": []
+        },
+        {
+          "uuid": "Lorem ut",
+          "carrierAssociation": "pariatur laboris nostrud",
+          "carrierBrand": "cupidatat",
+          "carrierName": "dolore nostrud ipsum",
+          "state": null,
+          "planName": "commodo dolor veniam Excepteur",
+          "planType": "sint dolore labore eiusmod",
+          "metalLevel": null,
+          "displayName": "Duis",
+          "network": null,
+          "confidence": -32975861,
+          "category": "Duis proident sint aliquip veniam",
+          "codes": []
+        },
+        {
+          "uuid": "consequat adipisicing Excepteur aliquip",
+          "carrierAssociation": "nisi dolor",
+          "carrierBrand": "quis dolore",
+          "carrierName": "ipsum",
+          "state": null,
+          "planName": "velit sit aute officia sint",
+          "planType": "anim sed ullamco aliquip occaecat",
+          "metalLevel": null,
+          "displayName": "velit pariatur",
+          "network": null,
+          "confidence": -36007057,
+          "category": "sed veniam eiusmod amet nostrud",
+          "codes": []
+        },
+        {
+          "uuid": "ad aute in proident minim",
+          "carrierAssociation": "deserunt nulla",
+          "carrierBrand": "ad",
+          "carrierName": "qui",
+          "state": null,
+          "planName": "nulla ex pariatur ullamco",
+          "planType": null,
+          "metalLevel": null,
+          "displayName": "sunt sint est",
+          "network": null,
+          "confidence": 11902072,
+          "category": "cupidatat velit veniam non",
+          "codes": []
+        },
+        {
+          "uuid": "mollit nulla",
+          "carrierAssociation": "eiusmod deserunt",
+          "carrierBrand": "deserunt mollit",
+          "carrierName": "ea culpa",
+          "state": null,
+          "planName": "dolore",
+          "planType": null,
+          "metalLevel": null,
+          "displayName": "deserunt reprehenderit amet",
+          "network": null,
+          "confidence": -268003,
+          "category": "aliquip eu id nisi",
+          "codes": []
+        },
+        {
+          "uuid": "dolor irure consectetur do",
+          "carrierAssociation": "irure labore adipisicing id",
+          "carrierBrand": "do laborum",
+          "carrierName": "consequat",
+          "state": null,
+          "planName": "sed commodo reprehenderit",
+          "planType": "consectetur nisi adipisicing",
+          "metalLevel": null,
+          "displayName": "laborum in irure culpa anim",
+          "network": null,
+          "confidence": -17999665,
+          "category": "dolor exercitation ipsum",
+          "codes": []
+        },
+        {
+          "uuid": "enim",
+          "carrierAssociation": "laboris labore ipsum in",
+          "carrierBrand": "sunt",
+          "carrierName": "Ut nostrud pariatur",
+          "state": null,
+          "planName": "dolore id ut tempor",
+          "planType": "laborum amet do",
+          "metalLevel": null,
+          "displayName": "in consequat in eu culpa",
+          "network": null,
+          "confidence": 43548513,
+          "category": "ullamco aliquip velit culpa aute",
+          "codes": []
+        },
+        {
+          "uuid": "proident nisi laborum",
+          "carrierAssociation": "in ullamco qui dolor ex",
+          "carrierBrand": "minim ex",
+          "carrierName": "dolore adipisicing enim fugiat",
+          "state": null,
+          "planName": "irure et eiusmod fugiat",
+          "planType": "esse Duis irure ut",
+          "metalLevel": null,
+          "displayName": "aliqua",
+          "network": null,
+          "confidence": -83591696,
+          "category": "irure nostrud",
+          "codes": [
+            "occaecat"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "name": "cillum Excepteur",
+          "uuid": "Duis nisi fugiat",
+          "faxes": [],
+          "address": "ullamco in mollit",
+          "latitude": -1918046.8331145346,
+          "longitude": -96591585.69426274,
+          "confidence": 8506058,
+          "insurances": [],
+          "phoneNumbers": [],
+          "locationTypes": [
+            "laborum in et nostrud"
+          ],
+          "addressDetails": {
+            "zip": "voluptate dolor",
+            "city": "elit sunt ullamco",
+            "state": "labore laborum",
+            "street": "laboris ut ullamco qui Excepteur",
+            "addressLine1": "elit in ex",
+            "addressLine2": null
+          },
+          "googleMapsLink": "ut ex ipsum commodo minim",
+          "ahaId": "irure sit",
+          "versionId": "amet sed aliquip ipsum aliqua",
+          "parentAhaId": "dolore"
+        },
+        {
+          "name": "in ut",
+          "uuid": "et in enim labore voluptate",
+          "faxes": [
+            {
+              "fax": "ipsum dolore ea adipisicing nulla",
+              "details": "sit"
+            },
+            {
+              "fax": "consequat cillum",
+              "details": "consequat"
+            },
+            {
+              "fax": "nulla Lorem qui",
+              "details": "sit ipsum"
+            }
+          ],
+          "address": "tempor in Excepteur aliqua",
+          "latitude": -22869673.143245757,
+          "longitude": -70706392.14483672,
+          "confidence": 18711062,
+          "insurances": [
+            {
+              "uuid": "velit dolore laboris commodo",
+              "carrierAssociation": "aliquip velit",
+              "carrierBrand": "tempor quis",
+              "carrierName": "aliquip ullamco labore",
+              "state": null,
+              "planName": "proident occaecat eu",
+              "planType": null,
+              "metalLevel": null,
+              "displayName": "laboris quis ullamco non tempor",
+              "network": null,
+              "confidence": -63317746,
+              "category": "aliquip aute",
+              "codes": []
+            },
+            {
+              "uuid": "ut",
+              "carrierAssociation": "veniam incididunt adipisicing sunt",
+              "carrierBrand": "eiusmod",
+              "carrierName": "commodo ullamco",
+              "state": null,
+              "planName": "est consequat qui incididunt dolore",
+              "planType": "ad",
+              "metalLevel": null,
+              "displayName": "ea qui",
+              "network": null,
+              "confidence": -74807352,
+              "category": "amet Duis",
+              "codes": []
+            },
+            {
+              "uuid": "elit culpa",
+              "carrierAssociation": "consequat dolore et",
+              "carrierBrand": "pariatur minim Lorem labore",
+              "carrierName": "exercitation enim",
+              "state": null,
+              "planName": "consectetur",
+              "planType": "laboris do",
+              "metalLevel": null,
+              "displayName": "in ut occaecat",
+              "network": null,
+              "confidence": -51710354,
+              "category": "dolor",
+              "codes": []
+            },
+            {
+              "uuid": "Duis do et Ut nulla",
+              "carrierAssociation": "exercitation",
+              "carrierBrand": "amet Lorem ut",
+              "carrierName": "sit minim",
+              "state": null,
+              "planName": "reprehenderit occaecat sed proident",
+              "planType": null,
+              "metalLevel": null,
+              "displayName": "ut in ea",
+              "network": null,
+              "confidence": 4204026,
+              "category": "ut Ut",
+              "codes": []
+            },
+            {
+              "uuid": "cillum ad culpa",
+              "carrierAssociation": "fugiat sint",
+              "carrierBrand": "cupidatat proident",
+              "carrierName": "proident aute anim commodo",
+              "state": null,
+              "planName": "eiusmod",
+              "planType": "dolore",
+              "metalLevel": null,
+              "displayName": "et dolore ipsum",
+              "network": null,
+              "confidence": 99005381,
+              "category": "exercitation dolore",
+              "codes": []
+            },
+            {
+              "uuid": "Ut tempor dolor Duis cillum",
+              "carrierAssociation": "dolore sed in",
+              "carrierBrand": "sed mollit officia",
+              "carrierName": "cupidatat elit ex nisi",
+              "state": null,
+              "planName": "nostrud Excepteur",
+              "planType": "in",
+              "metalLevel": null,
+              "displayName": "ut veniam in deserunt nisi",
+              "network": null,
+              "confidence": 3643949,
+              "category": "enim eu",
+              "codes": []
+            },
+            {
+              "uuid": "Excepteur sint sunt nostrud",
+              "carrierAssociation": "eu",
+              "carrierBrand": "commodo aliquip non minim",
+              "carrierName": "aliqua id",
+              "state": null,
+              "planName": "in sed dolor do in",
+              "planType": null,
+              "metalLevel": null,
+              "displayName": "anim ut",
+              "network": null,
+              "confidence": 3560158,
+              "category": "sit sunt sed ea",
+              "codes": []
+            },
+            {
+              "uuid": "voluptate Lorem velit aute occaecat",
+              "carrierAssociation": "enim",
+              "carrierBrand": "eu irure sit et",
+              "carrierName": "enim proident quis et",
+              "state": null,
+              "planName": "aute",
+              "planType": null,
+              "metalLevel": null,
+              "displayName": "aliquip",
+              "network": null,
+              "confidence": 22610467,
+              "category": "do quis tempor amet",
+              "codes": []
+            },
+            {
+              "uuid": "commodo sit est",
+              "carrierAssociation": "in dolor amet qui",
+              "carrierBrand": "consectetur incididunt",
+              "carrierName": "eiusmod dolor enim ad et",
+              "state": null,
+              "planName": "tempor nulla non",
+              "planType": "exercitation et",
+              "metalLevel": null,
+              "displayName": "minim dolore mollit ut",
+              "network": null,
+              "confidence": -55610893,
+              "category": "Excepteur mollit exercitation",
+              "codes": []
+            },
+            {
+              "uuid": "dolore proident Lorem dolor",
+              "carrierAssociation": "sunt amet exercitation pariatur dolor",
+              "carrierBrand": "ex tempor esse",
+              "carrierName": "ad et",
+              "state": null,
+              "planName": "quis",
+              "planType": "laboris",
+              "metalLevel": null,
+              "displayName": "Excepteur Lorem proident",
+              "network": null,
+              "confidence": 85057139,
+              "category": "dolore dolor",
+              "codes": []
+            },
+            {
+              "uuid": "sit velit esse",
+              "carrierAssociation": "Ut",
+              "carrierBrand": "aliqua exercitation Excepteur",
+              "carrierName": "dolore voluptate ex",
+              "state": null,
+              "planName": "pariatur tempor",
+              "planType": "ipsum quis nulla consequat",
+              "metalLevel": null,
+              "displayName": "anim",
+              "network": null,
+              "confidence": 20690784,
+              "category": "consequat esse sed non ut",
+              "codes": []
+            },
+            {
+              "uuid": "exercitation",
+              "carrierAssociation": "ipsum labore Lorem consectetur",
+              "carrierBrand": "cupidatat cillum in laborum",
+              "carrierName": "dolor est laboris sunt consequat",
+              "state": null,
+              "planName": "ad reprehenderit et esse incididunt",
+              "planType": "aute",
+              "metalLevel": null,
+              "displayName": "eiusmod reprehenderit",
+              "network": null,
+              "confidence": -60508935,
+              "category": "nostrud magna Excepteur tempor",
+              "codes": []
+            },
+            {
+              "uuid": "in ipsum amet Ut sint",
+              "carrierAssociation": "dolor eu qui",
+              "carrierBrand": "consequat ut magna",
+              "carrierName": "exercitation enim nulla",
+              "state": null,
+              "planName": "cupidatat dolore",
+              "planType": "adipisicing consequat",
+              "metalLevel": null,
+              "displayName": "nostrud velit",
+              "network": null,
+              "confidence": -78870402,
+              "category": "anim",
+              "codes": []
+            },
+            {
+              "uuid": "Duis esse in",
+              "carrierAssociation": "fugiat Ut aliquip adipisicing",
+              "carrierBrand": "Excepteur est culpa velit ullamco",
+              "carrierName": "mollit reprehenderit veniam",
+              "state": null,
+              "planName": "exercitation dolor",
+              "planType": null,
+              "metalLevel": null,
+              "displayName": "dolor esse in dolore",
+              "network": null,
+              "confidence": 4561925,
+              "category": "id laboris proident",
+              "codes": []
+            },
+            {
+              "uuid": "dolore pariatur esse consectetur",
+              "carrierAssociation": "ullamco sed",
+              "carrierBrand": "consequat in fugiat",
+              "carrierName": "voluptate sed id",
+              "state": null,
+              "planName": "cillum",
+              "planType": null,
+              "metalLevel": null,
+              "displayName": "velit",
+              "network": null,
+              "confidence": -80349279,
+              "category": "laboris fugiat nisi ad",
+              "codes": []
+            },
+            {
+              "uuid": "deserunt Excepteur aliquip incididunt in",
+              "carrierAssociation": "Excepteur tempor ad consectetur",
+              "carrierBrand": "aliquip ut eu Ut",
+              "carrierName": "Excepteur",
+              "state": null,
+              "planName": "ipsum",
+              "planType": "ex sed in dolore cillum",
+              "metalLevel": null,
+              "displayName": "ad sunt",
+              "network": null,
+              "confidence": 50228162,
+              "category": "laborum ipsum dolore sit dolor",
+              "codes": []
+            },
+            {
+              "uuid": "ut irure tempor",
+              "carrierAssociation": "sit do",
+              "carrierBrand": "non et culpa elit",
+              "carrierName": "commodo",
+              "state": null,
+              "planName": "adipisicing proident cupidatat in",
+              "planType": "deserunt magna mollit est aute",
+              "metalLevel": null,
+              "displayName": "sit",
+              "network": null,
+              "confidence": 44771483,
+              "category": "dolore in",
+              "codes": []
+            },
+            {
+              "uuid": "magna",
+              "carrierAssociation": "dolore non",
+              "carrierBrand": "veniam laboris Excepteur",
+              "carrierName": "est dolore fugiat irure",
+              "state": null,
+              "planName": "Duis sint",
+              "planType": "nulla sint ad",
+              "metalLevel": null,
+              "displayName": "veniam officia ex",
+              "network": null,
+              "confidence": -96548879,
+              "category": "Ut nisi cillum in irure",
+              "codes": [
+                "nisi deserunt ipsum"
+              ]
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phone": "fugiat Excepteur ut sit",
+              "details": "ad"
+            },
+            {
+              "phone": "dolor consequat",
+              "details": "est dolore Excepteur"
+            },
+            {
+              "phone": "do",
+              "details": "ipsum sit sunt nostrud"
+            }
+          ],
+          "locationTypes": [
+            "Duis Lorem magna"
+          ],
+          "addressDetails": {
+            "zip": "quis enim in qui",
+            "city": "ut",
+            "state": "adipisicing",
+            "street": "elit eu eiusmod",
+            "addressLine1": "ipsum sit velit quis",
+            "addressLine2": "ex ea"
+          },
+          "googleMapsLink": "cillum ipsum elit",
+          "versionId": "sit veniam"
+        },
+        {
+          "name": "nisi pariatur mollit qui do",
+          "uuid": "exercitation dolore aliquip amet",
+          "faxes": [
+            {
+              "fax": "aliqua fugiat",
+              "details": "cupidatat cillum"
+            },
+            {
+              "fax": "sint ut",
+              "details": "nostrud ad est"
+            },
+            {
+              "fax": "quis laborum",
+              "details": "id sit deserunt Ut magna"
+            }
+          ],
+          "address": "elit",
+          "latitude": -74926585.90294199,
+          "longitude": 7024579.8734532595,
+          "confidence": -16017061,
+          "insurances": [
+            {
+              "uuid": "enim laboris deserunt labore",
+              "carrierAssociation": "aliqua consequat incididunt do",
+              "carrierBrand": "laboris eu Lorem aliquip",
+              "carrierName": "Duis",
+              "state": null,
+              "planName": "in Excepteur reprehenderit ex",
+              "planType": null,
+              "metalLevel": null,
+              "displayName": "qui aliquip",
+              "network": null,
+              "confidence": -15561050,
+              "category": "anim dolor tempor",
+              "codes": []
+            },
+            {
+              "uuid": "dolore dolor",
+              "carrierAssociation": "amet laborum do est et",
+              "carrierBrand": "sit laboris",
+              "carrierName": "nostrud laborum eiusmod nisi cillum",
+              "state": null,
+              "planName": "consequat",
+              "planType": "qui velit irure cillum et",
+              "metalLevel": null,
+              "displayName": "qui labore commodo tempor amet",
+              "network": null,
+              "confidence": 55192306,
+              "category": "enim tempor in",
+              "codes": []
+            },
+            {
+              "uuid": "veniam minim amet",
+              "carrierAssociation": "est deserunt laborum",
+              "carrierBrand": "dolore ea pariatur commodo",
+              "carrierName": "anim nulla fugiat occaecat",
+              "state": null,
+              "planName": "ex est",
+              "planType": null,
+              "metalLevel": null,
+              "displayName": "laboris enim dolor magna",
+              "network": null,
+              "confidence": 21891475,
+              "category": "id deserunt aute est commodo",
+              "codes": []
+            },
+            {
+              "uuid": "incididunt anim minim eiusmod",
+              "carrierAssociation": "velit eu sed",
+              "carrierBrand": "labore",
+              "carrierName": "esse culpa officia ullamco",
+              "state": null,
+              "planName": "tempor proident mollit",
+              "planType": null,
+              "metalLevel": null,
+              "displayName": "commodo non et labore",
+              "network": null,
+              "confidence": -87313736,
+              "category": "pariatur sed eu",
+              "codes": []
+            },
+            {
+              "uuid": "cupidatat",
+              "carrierAssociation": "tempor",
+              "carrierBrand": "aute id",
+              "carrierName": "sit est laborum in deserunt",
+              "state": null,
+              "planName": "Lorem laborum ut",
+              "planType": null,
+              "metalLevel": null,
+              "displayName": "fugiat in incididunt esse",
+              "network": null,
+              "confidence": 6674545,
+              "category": "officia sed nostrud",
+              "codes": []
+            },
+            {
+              "uuid": "consectetur sit adipisicing aliqua",
+              "carrierAssociation": "ullamco commodo amet eu",
+              "carrierBrand": "cupidatat",
+              "carrierName": "qui pariatur nisi voluptate aliqua",
+              "state": null,
+              "planName": "deserunt ex nisi",
+              "planType": null,
+              "metalLevel": null,
+              "displayName": "Duis amet adipisicing",
+              "network": null,
+              "confidence": -97162315,
+              "category": "aliquip commodo occaecat",
+              "codes": []
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phone": "enim",
+              "details": "ut consectetur amet"
+            },
+            {
+              "phone": "aute ipsum consectetur incididunt amet",
+              "details": "ex occaecat proident"
+            },
+            {
+              "phone": "do cillum aliquip",
+              "details": "ea aute culpa labore sit"
+            }
+          ],
+          "locationTypes": [],
+          "addressDetails": {
+            "zip": "do in eu",
+            "city": "deserunt ea exercitation",
+            "state": "aute magna qui sit",
+            "street": "consectetur proident",
+            "addressLine1": "ex aliqua sed",
+            "addressLine2": "do culpa"
+          },
+          "googleMapsLink": "cillum",
+          "versionId": "fugiat aliqua qui do"
+        },
+        {
+          "name": null,
+          "uuid": "do officia ullamco sed aliqua",
+          "faxes": [],
+          "address": "do consectetur aliquip",
+          "latitude": 86343602.76567349,
+          "longitude": -6377981.755870104,
+          "confidence": -12289955,
+          "insurances": [],
+          "phoneNumbers": [
+            {
+              "phone": "veniam Duis",
+              "details": "et ad"
+            },
+            {
+              "phone": "laborum in dolor Lorem",
+              "details": "Duis eiusmod commodo cupidatat sint"
+            }
+          ],
+          "locationTypes": [],
+          "addressDetails": {
+            "zip": "proident in veniam dolor dolore",
+            "city": "commodo",
+            "state": "deserunt",
+            "street": "mollit sed irure qui",
+            "addressLine1": "sint ut",
+            "addressLine2": null
+          },
+          "googleMapsLink": "ex laboris"
+        },
+        {
+          "name": null,
+          "uuid": "sed aliquip in",
+          "faxes": [],
+          "address": "aute dolore Duis cupidatat",
+          "latitude": -22719523.83054714,
+          "longitude": 18468290.88084729,
+          "confidence": 57563359,
+          "insurances": [
+            {
+              "uuid": "occaecat culpa dolore consectetur",
+              "carrierAssociation": "tempor sit",
+              "carrierBrand": "est",
+              "carrierName": "Excepteur labore culpa cupidatat",
+              "state": null,
+              "planName": "tempor dolor nisi",
+              "planType": null,
+              "metalLevel": null,
+              "displayName": "ut laboris",
+              "network": null,
+              "confidence": 53529928,
+              "category": "cupidatat id deserunt",
+              "codes": []
+            },
+            {
+              "uuid": "quis tempor ut",
+              "carrierAssociation": "consequat aliqua esse amet ea",
+              "carrierBrand": "nisi tempor sint",
+              "carrierName": "ea magna ut",
+              "state": null,
+              "planName": "ut Duis irure laborum",
+              "planType": "nostrud laborum nisi est",
+              "metalLevel": null,
+              "displayName": "amet eiusmod",
+              "network": null,
+              "confidence": 59045531,
+              "category": "dolore dolor",
+              "codes": []
+            },
+            {
+              "uuid": "sint quis proident Excepteur",
+              "carrierAssociation": "exercitation esse quis consectetur",
+              "carrierBrand": "mollit",
+              "carrierName": "occaecat",
+              "state": null,
+              "planName": "sunt",
+              "planType": "sunt eu nulla exercitation nostrud",
+              "metalLevel": null,
+              "displayName": "nisi minim pariatur",
+              "network": null,
+              "confidence": 13210805,
+              "category": "voluptate dolor",
+              "codes": []
+            },
+            {
+              "uuid": "amet deserunt officia sint irure",
+              "carrierAssociation": "dolore magna",
+              "carrierBrand": "adipisicing ut labore",
+              "carrierName": "do ad in est dolore",
+              "state": null,
+              "planName": "qui",
+              "planType": "proident consectetur fugiat ea",
+              "metalLevel": null,
+              "displayName": "veniam in",
+              "network": null,
+              "confidence": -1034613,
+              "category": "ut",
+              "codes": []
+            },
+            {
+              "uuid": "dolore ipsum in amet do",
+              "carrierAssociation": "esse quis aute",
+              "carrierBrand": "do magna tempor labore",
+              "carrierName": "velit commodo sunt laborum dolor",
+              "state": null,
+              "planName": "voluptate consequat minim",
+              "planType": "labore tempor",
+              "metalLevel": null,
+              "displayName": "adipisicing in in",
+              "network": null,
+              "confidence": 3656603,
+              "category": "Duis",
+              "codes": []
+            },
+            {
+              "uuid": "officia",
+              "carrierAssociation": "aute Excepteur",
+              "carrierBrand": "sint est in dolor ad",
+              "carrierName": "ut",
+              "state": null,
+              "planName": "ullamco",
+              "planType": "dolore sed irure",
+              "metalLevel": null,
+              "displayName": "anim",
+              "network": null,
+              "confidence": 54542151,
+              "category": "ad esse",
+              "codes": []
+            },
+            {
+              "uuid": "veniam",
+              "carrierAssociation": "cupidatat laborum",
+              "carrierBrand": "irure pariatur",
+              "carrierName": "exercitation consectetur officia et",
+              "state": null,
+              "planName": "dolor quis enim",
+              "planType": "ex",
+              "metalLevel": null,
+              "displayName": "ea non magna",
+              "network": null,
+              "confidence": 45396261,
+              "category": "proident officia veniam incididunt",
+              "codes": []
+            },
+            {
+              "uuid": "reprehenderit",
+              "carrierAssociation": "Lorem ipsum ea amet",
+              "carrierBrand": "ullamco",
+              "carrierName": "commodo ipsum deserunt",
+              "state": null,
+              "planName": "proident dolore",
+              "planType": "aliqua pariatur",
+              "metalLevel": null,
+              "displayName": "adipisicing ut",
+              "network": null,
+              "confidence": 62572334,
+              "category": "sint",
+              "codes": []
+            },
+            {
+              "uuid": "do enim in Lorem",
+              "carrierAssociation": "pariatur aliqua ut magna",
+              "carrierBrand": "ea minim nostrud",
+              "carrierName": "Excepteur dolore",
+              "state": null,
+              "planName": "eiusmod in sunt",
+              "planType": "dolore ipsum enim exercitation officia",
+              "metalLevel": null,
+              "displayName": "ad sint adipisicing anim sunt",
+              "network": null,
+              "confidence": 22824251,
+              "category": "dolore ullamco in",
+              "codes": [
+                "fugiat commodo sint reprehenderit sunt"
+              ]
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phone": "mollit",
+              "details": "est Ut id incididunt adipisicing"
+            },
+            {
+              "phone": "aliqua nostrud ad Excepteur",
+              "details": "do nostrud"
+            }
+          ],
+          "locationTypes": [],
+          "addressDetails": {
+            "zip": "ad elit proident",
+            "city": "labore irure fugiat laborum anim",
+            "state": "elit culpa ex ullamco",
+            "street": "occaecat in ea",
+            "addressLine1": "Duis Ut ex",
+            "addressLine2": "officia minim ex ullamco"
+          },
+          "googleMapsLink": "nisi elit"
+        },
+        {
+          "name": null,
+          "uuid": "nisi sunt culpa veniam",
+          "faxes": [],
+          "address": "qui",
+          "latitude": -23991936.309339,
+          "longitude": 2045123.514552176,
+          "confidence": 26879841,
+          "insurances": [],
+          "phoneNumbers": [
+            {
+              "phone": "ipsum sit dolore in",
+              "details": "reprehenderit Duis commodo aliquip occaecat"
+            }
+          ],
+          "locationTypes": [],
+          "addressDetails": {
+            "zip": "quis",
+            "city": "consequat laborum ullamco",
+            "state": "sit est adipisicing eiusmod dolore",
+            "street": "aliqua quis",
+            "addressLine1": "amet magna",
+            "addressLine2": "Excepteur anim et"
+          },
+          "googleMapsLink": "ullamco qui"
+        },
+        {
+          "name": null,
+          "uuid": "anim",
+          "faxes": [
+            {
+              "fax": "nostrud",
+              "details": "nostrud"
+            }
+          ],
+          "address": "irure nostrud",
+          "latitude": -6948813.122280255,
+          "longitude": 15509058.48282595,
+          "confidence": 10886011,
+          "insurances": [],
+          "phoneNumbers": [
+            {
+              "phone": "mollit in elit qui",
+              "details": "tempor"
+            },
+            {
+              "phone": "in do id est",
+              "details": "dolor in"
+            }
+          ],
+          "locationTypes": [],
+          "addressDetails": {
+            "zip": "eu nostrud est enim",
+            "city": "quis sed enim reprehenderit",
+            "state": "quis",
+            "street": "labore tempor in",
+            "addressLine1": "cupidatat voluptate",
+            "addressLine2": null
+          },
+          "googleMapsLink": "exercitation"
+        },
+        {
+          "name": null,
+          "uuid": "in sit magna irure sed",
+          "faxes": [],
+          "address": "anim dolore",
+          "latitude": -23440788.844340116,
+          "longitude": -92633037.16651672,
+          "confidence": -31988877,
+          "insurances": [],
+          "phoneNumbers": [
+            {
+              "phone": "consequat mollit consectetur dolor",
+              "details": "ut esse proident"
+            }
+          ],
+          "locationTypes": [],
+          "addressDetails": {
+            "zip": "occaecat",
+            "city": "consequat",
+            "state": "cillum incididunt",
+            "street": null,
+            "addressLine1": null,
+            "addressLine2": null
+          },
+          "googleMapsLink": "tempor"
+        },
+        {
+          "name": null,
+          "uuid": "Ut ullamco cupidatat sed",
+          "faxes": [],
+          "address": "non fugiat",
+          "latitude": -4120493.2560922652,
+          "longitude": -87676380.77617241,
+          "confidence": -25615664,
+          "insurances": [],
+          "phoneNumbers": [
+            {
+              "phone": "in enim in laboris",
+              "details": "dolore ex tempor aliquip laboris"
+            },
+            {
+              "phone": "dolore in cupidatat exercitation",
+              "details": "culpa"
+            }
+          ],
+          "locationTypes": [],
+          "addressDetails": {
+            "zip": "elit ex commodo anim",
+            "city": "minim",
+            "state": "proident",
+            "street": "in Lorem anim aute qui",
+            "addressLine1": "laboris nisi dolore sit sunt",
+            "addressLine2": "aute eu aliquip"
+          },
+          "googleMapsLink": "nulla pariatur"
+        }
+      ],
+      "onlineProfiles": [
+        {
+          "url": "mollit anim dolore"
+        },
+        {
+          "url": "ex ut officia"
+        }
+      ],
+      "panelDemographics": {
+        "ages": [
+          "eiusmod",
+          "anim officia sunt irure ipsum"
+        ],
+        "sexes": "enim elit"
+      },
+      "clinicalAreas": [
+        {
+          "uuid": "do adipisicing",
+          "display": "ut enim officia",
+          "conditions": [
+            {
+              "uuid": "ad reprehenderit occaecat consequat",
+              "display": "elit ut ut quis"
+            },
+            {
+              "uuid": "labore cillum",
+              "display": "consequat qui minim dolor"
+            },
+            {
+              "uuid": "irure",
+              "display": "elit do dolore"
+            },
+            {
+              "uuid": "dolore non id",
+              "display": "dolore cupidatat id Ut deserunt"
+            },
+            {
+              "uuid": "est Excepteur irure",
+              "display": "officia incididunt exercitation Ut"
+            }
+          ],
+          "treatments": [
+            {
+              "uuid": "Lorem commodo",
+              "display": "labore commodo do anim occaecat"
+            },
+            {
+              "uuid": "Lorem magna",
+              "display": "et cupidatat officia cillum aute"
+            },
+            {
+              "uuid": "qui in",
+              "display": "labore proident"
+            },
+            {
+              "uuid": "cillum cupidatat",
+              "display": "mollit ullamco officia"
+            },
+            {
+              "uuid": "ut dolore cupidatat mollit",
+              "display": "nostrud in fugiat commodo occaecat"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "uuid": "in ipsum",
+          "display": "Ut dolore occaecat irure"
+        },
+        {
+          "uuid": "aute",
+          "display": "proident tempor aliqua"
+        },
+        {
+          "uuid": "magna elit",
+          "display": "pariatur elit eu cillum"
+        },
+        {
+          "uuid": "consequat dolore exercitation do",
+          "display": "ad labore"
+        },
+        {
+          "uuid": "ipsum quis enim adipisicing amet",
+          "display": "mollit amet voluptate eiusmod"
+        }
+      ],
+      "treatments": [
+        {
+          "uuid": "velit fugiat mollit",
+          "display": "veniam et sint qui"
+        },
+        {
+          "uuid": "aliqua eiusmod",
+          "display": "amet fugiat minim"
+        },
+        {
+          "uuid": "cillum deserunt",
+          "display": "laboris labore pariatur magna"
+        },
+        {
+          "uuid": "amet ullamco ex",
+          "display": "do sunt"
+        },
+        {
+          "uuid": "occaecat ex laborum eu elit",
+          "display": "incididunt dolor"
+        }
+      ],
+      "procedures": [
+        {
+          "cost": {
+            "costIndex": null
+          },
+          "uuid": "dolor sed",
+          "display": "sunt ea incididunt adipisicing",
+          "quality": {
+            "experienceIndex": -30570428
+          }
+        },
+        {
+          "cost": {
+            "costIndex": null
+          },
+          "uuid": "laborum dolor ex ad",
+          "display": "in exercitation Ut",
+          "quality": {
+            "experienceIndex": -64144936.38639054
+          }
+        },
+        {
+          "cost": {
+            "costIndex": 14950230
+          },
+          "uuid": "irure nostrud dolore",
+          "display": "pariatur nostrud",
+          "quality": {
+            "experienceIndex": 97825950
+          }
+        },
+        {
+          "cost": {
+            "costIndex": 57997698.17819622
+          },
+          "uuid": "consectetur culpa laboris deserunt dolore",
+          "display": "velit Duis minim",
+          "quality": {
+            "experienceIndex": 13235331.430229098
+          }
+        },
+        {
+          "cost": {
+            "costIndex": null
+          },
+          "uuid": "veniam ex exercitation ut laboris",
+          "display": "id qui proident pariatur sint",
+          "quality": {
+            "experienceIndex": 54769317.66871008
+          }
+        },
+        {
+          "cost": {
+            "costIndex": null
+          },
+          "uuid": "culpa irure",
+          "display": "est nisi in consequat",
+          "quality": {
+            "experienceIndex": -43415875.138519324
+          }
+        },
+        {
+          "cost": {
+            "costIndex": null
+          },
+          "uuid": "Excepteur ad",
+          "display": "veniam",
+          "quality": {
+            "experienceIndex": -90252465.46120185
+          }
+        },
+        {
+          "cost": {
+            "costIndex": null
+          },
+          "uuid": "nisi voluptate",
+          "display": "laborum id cupidatat",
+          "quality": {
+            "experienceIndex": 17769609.893202126
+          }
+        },
+        {
+          "cost": {
+            "costIndex": null
+          },
+          "uuid": "minim occaecat",
+          "display": "eiusmod consectetur officia occaecat",
+          "quality": {
+            "experienceIndex": -93113429.72243878
+          }
+        },
+        {
+          "cost": {
+            "costIndex": null
+          },
+          "uuid": "aute",
+          "display": "enim dolore",
+          "quality": {
+            "experienceIndex": -49392738.08026319
+          }
+        },
+        {
+          "cost": {
+            "costIndex": null
+          },
+          "uuid": "ipsum cillum consectetur ex",
+          "display": "ex elit Duis enim magna",
+          "quality": {
+            "experienceIndex": 95378052.30702108
+          }
+        }
+      ],
+      "performance": []
+    }
+  ]
+}
