@@ -1,16 +1,12 @@
-import { ProviderParameters } from "./Providers/providerParameters";
-import { PropType } from "./utills/types";
-import { SpecialtiesParameters } from "./Specialties/specialtiesParameters";
+import { PropType, SearchParameters } from "./utills/types";
 import { decamelize } from "humps";
 
-type queryParams = ProviderParameters | SpecialtiesParameters;
-
-export function buildQuery(params: queryParams) {
+export function buildQuery(params: SearchParameters) {
   let query = "";
   for (const param in params) {
-    const val = params[param as keyof queryParams] as PropType;
+    const val = params[param as keyof SearchParameters] as PropType;
     if (!val) continue;
-    query = `${decamelize(param)}=`;
+    query += `${decamelize(param)}=`;
     if (typeof val === "string" || typeof val === "number") {
       query += `${val}&`;
     } else if (typeof val === "boolean") {
