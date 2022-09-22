@@ -1,3 +1,5 @@
 export interface IConfiguration {
-  proxyUrl: string;
+  url: string;
+  apiKey?: string;
+  env?: "test" | "prod";
 }

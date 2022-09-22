@@ -1,19 +1,19 @@
 import endpoints from "../endpoints";
+
 import { buildQuery } from "../buildQuery";
-import { SpecialtiesParameters } from "./specialtiesParameters";
 import { IFindable } from "../utills/iFindable";
 import { get } from "../utills/httpMethods";
-import { SpecialtiesApiResponse } from "./specialtiesApiResponse";
+import { SpecialtyParams } from "./specialtyParams";
+import { SpecialtyResponse } from "./specialtyResponse";
 
-export class Specialty implements IFindable {
+export class Specialties implements IFindable {
   private readonly endpoint: string;
-
   constructor() {
     this.endpoint = endpoints.specialties;
   }
 
-  async find(params: SpecialtiesParameters) {
-    const data = await get<SpecialtiesApiResponse>({
+  async find(params: SpecialtyParams) {
+    const data = await get<SpecialtyResponse>({
       endpoint: this.endpoint,
       query: buildQuery(params),
     });

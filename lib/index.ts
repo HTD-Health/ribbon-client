@@ -1,3 +1,6 @@
 export { Ribbon } from "./ribbon";
-export * from "./Providers/types";
-export * from "./Providers/providers";
+export * from "./ClinicalAreas";
+export * from "./Insurances";
+export * from "./Locations";
+export * from "./Providers";
+export * from "./Specialties";
