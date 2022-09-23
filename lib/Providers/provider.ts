@@ -1,7 +1,9 @@
 import { ClinicalArea } from "../ClinicalAreas";
 import { Insurance } from "../Insurances";
 import { Location } from "../Locations";
+import { Organization } from "../Organizations";
 import { Specialty } from "../Specialties";
+import { UuidDisplay } from "../utills/types";
 
 /**
  * API Reference
@@ -30,6 +32,7 @@ export interface Provider {
   specialties?: ProviderSpecialty[];
   provider_types?: string[];
   languages?: string[];
+  organizations?: Organization;
   insurances?: Insurance[];
   locations?: Location[];
   online_profiles?: {
@@ -40,14 +43,8 @@ export interface Provider {
     sexes: string;
   };
   clinical_areas?: ClinicalArea[];
-  conditions?: {
-    uuid: string;
-    display: string;
-  }[];
-  treatments?: {
-    uuid: string;
-    display: string;
-  }[];
+  conditions?: UuidDisplay[];
+  treatments?: UuidDisplay[];
   procedures?: {
     cost: {
       cost_index: number | null;

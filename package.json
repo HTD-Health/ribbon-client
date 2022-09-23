@@ -15,8 +15,7 @@
     "watch": "webpack --watch"
   },
   "exports": {
-    ".": "./dist/ribbon-client.js",
-    "./package.json": "./package.json"
+    ".": "./dist/ribbon-client.js"
   },
   "keywords": [],
   "author": "",
