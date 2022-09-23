@@ -32,7 +32,7 @@ export interface Provider {
   specialties?: ProviderSpecialty[];
   provider_types?: string[];
   languages?: string[];
-  organizations?: Organization;
+  organizations?: Organization[];
   insurances?: Insurance[];
   locations?: Location[];
   online_profiles?: {
