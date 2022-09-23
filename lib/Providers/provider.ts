@@ -19,15 +19,13 @@ export interface Provider {
   ratings_count?: number;
   ratings_avg?: number;
   degrees?: string[];
-  educations?: [
-    {
-      type: string;
-      education: {
-        name: string;
-        uuid: string;
-      };
-    }
-  ];
+  educations?: {
+    type: string;
+    education: {
+      name: string;
+      uuid: string;
+    };
+  }[];
   is_pcp?: boolean;
   specialties?: ProviderSpecialty[];
   provider_types?: string[];
