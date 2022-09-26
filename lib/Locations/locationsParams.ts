@@ -21,6 +21,6 @@ interface LocationBasicParams extends BasicResponseParams {
   treatment_ids?: string[];
 }
 
-export interface LocationParams extends LocationBasicParams {
+export interface LocationsParams extends LocationBasicParams {
   exclude?: LocationBasicParams;
 }

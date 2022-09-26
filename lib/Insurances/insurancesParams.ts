@@ -1,6 +1,6 @@
 import { BasicResponseParams } from "../utills/apiResponseParams";
 
-export interface InsuranceParams extends BasicResponseParams {
+export interface InsurancesParams extends BasicResponseParams {
   search?: string;
   uuid?: string;
   carrier_association?: string;

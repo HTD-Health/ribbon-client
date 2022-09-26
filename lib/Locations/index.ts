@@ -1,4 +1,4 @@
 export * from "./location";
 export * from "./locations";
-export * from "./locationParams";
-export * from "./locationResponse";
+export * from "./locationsParams";
+export * from "./locationsResponse";

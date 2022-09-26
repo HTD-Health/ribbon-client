@@ -3,8 +3,8 @@ import endpoints from "../endpoints";
 import { buildQuery } from "../buildQuery";
 import { IFindable } from "../utills/iFindable";
 import { get } from "../utills/httpMethods";
-import { SpecialtyParams } from "./specialtyParams";
-import { SpecialtyResponse } from "./specialtyResponse";
+import { SpecialtiesParams } from "./specialtiesParams";
+import { SpecialtiesResponse } from "./specialtiesResponse";
 
 export class Specialties implements IFindable {
   private readonly endpoint: string;
@@ -12,8 +12,8 @@ export class Specialties implements IFindable {
     this.endpoint = endpoints.specialties;
   }
 
-  async find(params: SpecialtyParams) {
-    const data = await get<SpecialtyResponse>({
+  async find(params: SpecialtiesParams) {
+    const data = await get<SpecialtiesResponse>({
       endpoint: this.endpoint,
       query: buildQuery(params),
     });

@@ -1,9 +1,9 @@
 import { buildQuery } from "../lib/buildQuery";
-import { ProviderParams } from "../lib/Providers";
+import { ProvidersParams } from "../lib/Providers";
 
 describe("buildQuery", () => {
   it("builds correct query", async function () {
-    const params: ProviderParams = {
+    const params: ProvidersParams = {
       specialty_ids: ["000-000-001", "000-000-002", "000-000-003"],
       gender: "f",
       max_age: 123,
@@ -18,7 +18,7 @@ describe("buildQuery", () => {
   });
 
   it("builds correct query with exclusions", async function () {
-    const params: ProviderParams = {
+    const params: ProvidersParams = {
       gender: "f",
       max_age: 123,
       min_age: 2,

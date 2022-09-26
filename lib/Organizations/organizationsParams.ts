@@ -5,7 +5,7 @@ import { BasicResponseParams } from "../utills/apiResponseParams";
  *
  * API reference https://ribbon.readme.io/docs/search-for-organizations
  */
-export interface OrganizationParams extends BasicResponseParams {
+export interface OrganizationsParams extends BasicResponseParams {
   address?: string;
   name?: string;
   distance?: number;

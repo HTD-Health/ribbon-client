@@ -69,7 +69,7 @@ interface ProviderBasicParams extends BasicResponseParams {
   location_organization_ids?: string[];
 }
 
-export interface ProviderParams extends ProviderBasicParams {
+export interface ProvidersParams extends ProviderBasicParams {
   fields?: InterfaceFields<Provider>[];
   exclude?: ProviderBasicParams;
 }

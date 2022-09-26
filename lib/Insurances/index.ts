@@ -1,4 +1,4 @@
 export * from "./insurance";
-export * from "./insuranceParams";
-export * from "./insuranceResponse";
+export * from "./insurancesParams";
+export * from "./insurancesResponse";
 export * from "./insurances";

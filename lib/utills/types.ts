@@ -1,9 +1,9 @@
-import { ClinicalAreaParams, ClinicalAreaResponse } from "../ClinicalAreas";
-import { InsuranceParams, InsuranceResponse } from "../Insurances";
-import { LocationParams, LocationResponse } from "../Locations";
-import { OrganizationParams, OrganizationResponse } from "../Organizations";
-import { ProviderParams, ProviderResponse } from "../Providers";
-import { SpecialtyParams, SpecialtyResponse } from "../Specialties";
+import { ClinicalAreasParams, ClinicalAreasResponse } from "../ClinicalAreas";
+import { InsurancesParams, InsurancesResponse } from "../Insurances";
+import { LocationsParams, LocationsResponse } from "../Locations";
+import { OrganizationsParams, OrganizationsResponse } from "../Organizations";
+import { ProvidersParams, ProvidersResponse } from "../Providers";
+import { SpecialtiesParams, SpecialtiesResponse } from "../Specialties";
 
 export type Options = {
   endpoint: string;
@@ -24,17 +24,17 @@ export type PropType =
   | boolean;
 
 export type SearchParameters =
-  | ClinicalAreaParams
-  | InsuranceParams
-  | LocationParams
-  | OrganizationParams
-  | ProviderParams
-  | SpecialtyParams;
+  | ClinicalAreasParams
+  | InsurancesParams
+  | LocationsParams
+  | OrganizationsParams
+  | ProvidersParams
+  | SpecialtiesParams;
 
 export type RibbonResponse =
-  | Promise<ClinicalAreaResponse>
-  | Promise<InsuranceResponse>
-  | Promise<LocationResponse>
-  | Promise<OrganizationResponse>
-  | Promise<ProviderResponse>
-  | Promise<SpecialtyResponse>;
+  | Promise<ClinicalAreasResponse>
+  | Promise<InsurancesResponse>
+  | Promise<LocationsResponse>
+  | Promise<OrganizationsResponse>
+  | Promise<ProvidersResponse>
+  | Promise<SpecialtiesResponse>;

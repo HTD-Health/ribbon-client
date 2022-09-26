@@ -1,6 +1,6 @@
 import { BasicResponseParams } from "../utills/apiResponseParams";
 
-export interface SpecialtyParams extends BasicResponseParams {
+export interface SpecialtiesParams extends BasicResponseParams {
   search?: string;
   provider_type?: string;
 }

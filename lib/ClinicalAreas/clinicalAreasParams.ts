@@ -1,7 +1,7 @@
 import { BasicResponseParams } from "../utills/apiResponseParams";
 import { ClinicalAreaType } from "./clinicalAreaType";
 
-export interface ClinicalAreaParams extends BasicResponseParams {
+export interface ClinicalAreasParams extends BasicResponseParams {
   search?: string;
   clinical_area?: string;
   specialty_ids?: string[];
