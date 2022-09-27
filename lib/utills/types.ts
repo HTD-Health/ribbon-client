@@ -29,6 +29,8 @@ export interface AddressDetails {
   address_line_2: string | null;
 }
 
+export type Gender = "m" | "f";
+
 export type PropType =
   | undefined
   | string

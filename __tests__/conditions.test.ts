@@ -2,7 +2,7 @@ import { ConditionsResponse, Ribbon } from "../lib";
 import { readFile } from "fs/promises";
 
 describe("ConditionCostEstimate", () => {
-  it("should return a response with estimates", async function () {
+  it("should return a response with conditions", async function () {
     const ribbonClient = new Ribbon({
       url: "test",
       target: "proxy",

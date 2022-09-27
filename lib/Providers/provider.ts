@@ -3,7 +3,7 @@ import { Insurance } from "../Insurances";
 import { Location } from "../Locations";
 import { Organization } from "../Organizations";
 import { Specialty } from "../Specialties";
-import { UuidDisplay } from "../utills/types";
+import { Gender, UuidDisplay } from "../utills/types";
 
 /**
  * API Reference
@@ -15,7 +15,7 @@ export interface Provider {
   middle_name?: string | null;
   last_name?: string;
   age?: number;
-  gender?: "m" | "f";
+  gender?: Gender;
   ratings_count?: number;
   ratings_avg?: number;
   degrees?: string[];

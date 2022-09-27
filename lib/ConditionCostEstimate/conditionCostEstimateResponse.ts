@@ -1,11 +1,11 @@
-import { UuidDisplay } from "../utills/types";
+import { Gender, UuidDisplay } from "../utills/types";
 
 export interface ConditionCostEstimateResponse {
   parameters: {
     conditions: UuidDisplay[];
     member_age: number;
     member_zip: string;
-    member_gender: "m" | "f";
+    member_gender: Gender;
   };
   data: {
     cost_estimates: {
