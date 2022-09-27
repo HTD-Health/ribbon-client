@@ -1,6 +1,7 @@
 const ENDPOINTS = {
   clinicalAreas: "/clinical_areas",
   conditions: "/conditions",
+  conditionCostEstimate: "/condition_cost_estimate",
   insurances: "/insurances",
   languages: "/languages",
   locations: "/locations",

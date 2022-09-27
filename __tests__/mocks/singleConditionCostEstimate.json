@@ -1,0 +1,1 @@
+{ "parameters": { "conditions": [ { "uuid": "628283f8-05cc-44dc-88de-8d7cd0d578e9", "display": "fugiat sit deserunt" } ], "member_age": 48, "member_zip": "100000", "member_gender": "f" }, "data": { "cost_estimates": { "one_year": 1644.5585, "five_year": 7360.5625, "ten_year": 15811.39, "lifetime": 186185.9764 } } }
