@@ -15,6 +15,15 @@ export interface UuidDisplay {
   display: string;
 }
 
+export interface AddressDetails {
+  zip: string;
+  city: string;
+  state: string;
+  street: string;
+  address_line_1: string | null;
+  address_line_2: string | null;
+}
+
 export type PropType =
   | undefined
   | string

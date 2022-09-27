@@ -1,3 +1,5 @@
+import { AddressDetails } from "../utills/types";
+
 export interface Location {
   name: string;
   uuid: string;
@@ -12,14 +14,7 @@ export interface Location {
     details: string;
   }[];
   location_types: string[];
-  address_details: {
-    zip: string;
-    city: string;
-    state: string;
-    street: string;
-    address_line_1: string | null;
-    address_line_2: string | null;
-  };
+  address_details: AddressDetails;
   google_maps_link: string | null;
   aha_id?: string;
   version_id?: string;

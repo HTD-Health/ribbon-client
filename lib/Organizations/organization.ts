@@ -1,3 +1,5 @@
+import { AddressDetails } from "../utills/types";
+
 export interface Organization {
   uuid: string;
   name: string;
@@ -10,14 +12,7 @@ export interface Organization {
     id_type: string;
   }[];
   address: string;
-  address_details: {
-    zip: string;
-    city: string;
-    state: string;
-    street: string;
-    address_line_1: string | null;
-    address_line_2: string | null;
-  };
+  address_details: AddressDetails;
   latitude: number;
   longitude: number;
   phone_numbers: {
