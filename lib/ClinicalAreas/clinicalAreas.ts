@@ -3,7 +3,7 @@ import endpoints from "../endpoints";
 import { buildQuery } from "../buildQuery";
 import { IFindable } from "../utills/iFindable";
 import { get } from "../utills/httpMethods";
-import { ClinicalAreasParams } from "./ClinicalAreasParams";
+import { ClinicalAreasParams } from "./clinicalAreasParams";
 import { ClinicalAreasResponse } from "./clinicalAreasResponse";
 
 export class ClinicalAreas implements IFindable {

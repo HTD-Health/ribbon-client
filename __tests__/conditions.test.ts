@@ -25,11 +25,13 @@ describe("ConditionCostEstimate", () => {
     );
     expect(data?.results[0].display).toEqual("sint");
     expect(data?.results[0].modules[0]).toEqual("condition_cost_estimate");
-    expect(data?.results[0].specialties.length).toEqual(2);
-    expect(data?.results[0].specialties[1].display).toEqual(
-      "sunt tempor cupidatat"
-    );
-    expect(data?.results[0].specialties[1].uuid).toEqual(
+    const specialities = data?.results[0].specialties ?? null;
+    if (specialities === null) {
+      throw new Error("Specialities shouldn't be null");
+    }
+    expect(data?.results[0].specialties?.length).toEqual(2);
+    expect(specialities[1].display).toEqual("sunt tempor cupidatat");
+    expect(specialities[1].uuid).toEqual(
       "41d5eb40-7950-411e-9be4-87be2ead4411"
     );
   });
