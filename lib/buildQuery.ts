@@ -1,20 +1,20 @@
 import { PropType, SearchParameters } from "./utills/types";
-import { decamelize } from "humps";
 
-export function buildQuery(params: SearchParameters) {
-  let query = "";
+export function buildQuery(params: SearchParameters, prefix?: string) {
+  const queryParams: string[] = [];
   for (const param in params) {
     const val = params[param as keyof SearchParameters] as PropType;
     if (!val) continue;
-    query += `${decamelize(param)}=`;
+    const key = prefix ? prefix + param : param;
     if (typeof val === "string" || typeof val === "number") {
-      query += `${val}&`;
+      queryParams.push(`${key}=${val}`);
     } else if (typeof val === "boolean") {
-      query += val ? "true&" : "false&";
-    } else {
-      const joinedArray = val.join(",");
-      query += `${joinedArray}&`;
+      queryParams.push(`${key}=${val ? "true" : "false"}`);
+    } else if (Array.isArray(val) && val.length > 0) {
+      queryParams.push(`${key}=${val.join(",")}`);
+    } else if (param === "exclude" && typeof val === "object") {
+      queryParams.push(buildQuery(val as SearchParameters, "_excl_"));
     }
   }
-  return query !== "" ? `?${query}` : "";
+  return queryParams.join("&");
 }

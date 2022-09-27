@@ -3,17 +3,17 @@ import endpoints from "../endpoints";
 import { buildQuery } from "../buildQuery";
 import { IFindable } from "../utills/iFindable";
 import { get } from "../utills/httpMethods";
-import { ProvidersParams } from "./providersParams";
-import { ProvidersResponse } from "./providersResponse";
+import { SpecialtiesParams } from "./specialtiesParams";
+import { SpecialtiesResponse } from "./specialtiesResponse";
 
-export class Providers implements IFindable {
+export class Specialties implements IFindable {
   private readonly endpoint: string;
   constructor() {
-    this.endpoint = endpoints.providers;
+    this.endpoint = endpoints.specialties;
   }
 
-  async find(params: ProvidersParams) {
-    const data = await get<ProvidersResponse>({
+  async find(params: SpecialtiesParams) {
+    const data = await get<SpecialtiesResponse>({
       endpoint: this.endpoint,
       query: buildQuery(params),
     });

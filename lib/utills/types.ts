@@ -1,16 +1,49 @@
-import { ProviderParameters } from "../Providers/providerParameters";
-import { SpecialtiesParameters } from "../Specialties/specialtiesParameters";
-import { ProviderApiResponse } from "../Providers/types";
-import { SpecialtiesApiResponse } from "../Specialties/specialtiesApiResponse";
+import { ClinicalAreasParams, ClinicalAreasResponse } from "../ClinicalAreas";
+import { InsurancesParams, InsurancesResponse } from "../Insurances";
+import { LocationsParams, LocationsResponse } from "../Locations";
+import { OrganizationsParams, OrganizationsResponse } from "../Organizations";
+import { ProvidersParams, ProvidersResponse } from "../Providers";
+import { SpecialtiesParams, SpecialtiesResponse } from "../Specialties";
 
 export type Options = {
   endpoint: string;
   query?: string;
 };
 
-export type PropType = undefined | string | string[] | number | boolean;
+export interface UuidDisplay {
+  uuid: string;
+  display: string;
+}
 
-export type SearchParameters = ProviderParameters | SpecialtiesParameters;
+export interface AddressDetails {
+  zip: string;
+  city: string;
+  state: string;
+  street: string;
+  address_line_1: string | null;
+  address_line_2: string | null;
+}
+
+export type PropType =
+  | undefined
+  | string
+  | string[]
+  | number
+  | number[]
+  | boolean;
+
+export type SearchParameters =
+  | ClinicalAreasParams
+  | InsurancesParams
+  | LocationsParams
+  | OrganizationsParams
+  | ProvidersParams
+  | SpecialtiesParams;
+
 export type RibbonResponse =
-  | Promise<ProviderApiResponse>
-  | Promise<SpecialtiesApiResponse>;
+  | Promise<ClinicalAreasResponse>
+  | Promise<InsurancesResponse>
+  | Promise<LocationsResponse>
+  | Promise<OrganizationsResponse>
+  | Promise<ProvidersResponse>
+  | Promise<SpecialtiesResponse>;
