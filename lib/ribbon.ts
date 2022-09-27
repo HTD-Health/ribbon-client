@@ -2,10 +2,7 @@
 
 import api from "./config/axiosInstance";
 import { ClinicalAreas } from "./ClinicalAreas";
-import {
-  IProxyClientConfiguration,
-  IRibbonClientConfiguration,
-} from "./config/IConfiguration";
+import { IConfiguration } from "./config/IConfiguration";
 import { Insurances } from "./Insurances";
 import { Locations } from "./Locations";
 import { Organizations } from "./Organizations";
@@ -21,7 +18,7 @@ export class Ribbon {
   public readonly Providers: Providers;
   public readonly Specialties: Specialties;
 
-  constructor(config: IRibbonClientConfiguration | IProxyClientConfiguration) {
+  constructor(config: IConfiguration) {
     this.ClinicalAreas = new ClinicalAreas();
     this.Insurances = new Insurances();
     this.Locations = new Locations();
@@ -30,13 +27,10 @@ export class Ribbon {
     this.Specialties = new Specialties();
 
     api.defaults.baseURL = config.url;
-    const c = <IRibbonClientConfiguration>config;
-    if (c?.apiKey) {
-      if (c?.env === "test")
-        api.defaults.headers.common["x-api-key"] = c.apiKey;
-      else {
-        api.defaults.headers.common["authorization"] = `Token ${c.apiKey}`;
-      }
-    }
+
+    if (config.target === "ribbon")
+      api.defaults.headers.common["authorization"] = `Token ${config.apiKey}`;
+    else if (config.target === "ribbon-test")
+      api.defaults.headers.common["x-api-key"] = config.apiKey;
   }
 }

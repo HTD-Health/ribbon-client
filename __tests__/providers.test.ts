@@ -5,6 +5,7 @@ describe("Providers", () => {
   it("should return a response with same npi", async function () {
     const ribbonClient = new Ribbon({
       url: "test",
+      target: "proxy",
     });
     const mockedData = JSON.parse(
       await readFile("__tests__/mocks/singleProvider.json", "utf8")

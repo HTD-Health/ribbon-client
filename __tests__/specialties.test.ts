@@ -5,6 +5,7 @@ describe("Specialties", () => {
   it("should return proper value", async function () {
     const ribbonClient = new Ribbon({
       url: "test",
+      target: "proxy",
     });
 
     const mockedData = JSON.parse(
