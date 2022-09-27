@@ -1,4 +1,9 @@
 import { ClinicalAreasParams, ClinicalAreasResponse } from "../ClinicalAreas";
+import {
+  ConditionCostEstimateParams,
+  ConditionCostEstimateResponse,
+} from "../ConditionCostEstimate";
+import { ConditionsParams, ConditionsResponse } from "../Conditions";
 import { InsurancesParams, InsurancesResponse } from "../Insurances";
 import { LocationsParams, LocationsResponse } from "../Locations";
 import { OrganizationsParams, OrganizationsResponse } from "../Organizations";
@@ -24,6 +29,8 @@ export interface AddressDetails {
   address_line_2: string | null;
 }
 
+export type Gender = "m" | "f";
+
 export type PropType =
   | undefined
   | string
@@ -34,6 +41,8 @@ export type PropType =
 
 export type SearchParameters =
   | ClinicalAreasParams
+  | ConditionCostEstimateParams
+  | ConditionsParams
   | InsurancesParams
   | LocationsParams
   | OrganizationsParams
@@ -42,6 +51,8 @@ export type SearchParameters =
 
 export type RibbonResponse =
   | Promise<ClinicalAreasResponse>
+  | Promise<ConditionCostEstimateResponse>
+  | Promise<ConditionsResponse>
   | Promise<InsurancesResponse>
   | Promise<LocationsResponse>
   | Promise<OrganizationsResponse>

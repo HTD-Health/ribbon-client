@@ -1,5 +1,6 @@
 import { BasicResponseParams } from "../utills/apiResponseParams";
 import { InterfaceFields } from "../utills/InterfaceFields";
+import { Gender } from "../utills/types";
 import { Provider } from "./provider";
 
 interface ProviderBasicParams extends BasicResponseParams {
@@ -29,7 +30,7 @@ interface ProviderBasicParams extends BasicResponseParams {
    * @maximum 5
    */
   min_confidence?: number; // 0 - 5
-  gender?: "m" | "f";
+  gender?: Gender;
   max_age?: number;
   min_age?: number;
   language?: string;

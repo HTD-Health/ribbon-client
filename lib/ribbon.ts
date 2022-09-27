@@ -8,10 +8,14 @@ import { Locations } from "./Locations";
 import { Organizations } from "./Organizations";
 import { Providers } from "./Providers";
 import { Specialties } from "./Specialties";
+import { ConditionCostEstimate } from "./ConditionCostEstimate";
+import { Conditions } from "./Conditions";
 
 // main ribbon instance
 export class Ribbon {
   public readonly ClinicalAreas: ClinicalAreas;
+  public readonly ConditionCostEstimate: ConditionCostEstimate;
+  public readonly Conditions: Conditions;
   public readonly Insurances: Insurances;
   public readonly Locations: Locations;
   public readonly Organizations: Organizations;
@@ -20,6 +24,8 @@ export class Ribbon {
 
   constructor(config: IConfiguration) {
     this.ClinicalAreas = new ClinicalAreas();
+    this.ConditionCostEstimate = new ConditionCostEstimate();
+    this.Conditions = new Conditions();
     this.Insurances = new Insurances();
     this.Locations = new Locations();
     this.Organizations = new Organizations();

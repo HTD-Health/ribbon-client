@@ -1,6 +1,6 @@
 {
   "name": "ribbon-client",
-  "version": "0.0.1-beta.26",
+  "version": "0.0.1-beta.27",
   "description": "a client for Ribbon API",
   "main": "dist/ribbon-client.js",
   "types": "dist/index.d.ts",
