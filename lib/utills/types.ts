@@ -5,10 +5,12 @@ import {
 } from "../ConditionCostEstimate";
 import { ConditionsParams, ConditionsResponse } from "../Conditions";
 import { InsurancesParams, InsurancesResponse } from "../Insurances";
+import { LanguageParams, LanguageResponse } from "../Languages";
 import { LocationsParams, LocationsResponse } from "../Locations";
 import { OrganizationsParams, OrganizationsResponse } from "../Organizations";
 import { ProvidersParams, ProvidersResponse } from "../Providers";
 import { SpecialtiesParams, SpecialtiesResponse } from "../Specialties";
+import { TreatmentParams, TreatmentResponse } from "../Treatments";
 
 export type Options = {
   endpoint: string;
@@ -24,7 +26,7 @@ export interface AddressDetails {
   zip: string;
   city: string;
   state: string;
-  street: string;
+  street: string | null;
   address_line_1: string | null;
   address_line_2: string | null;
 }
@@ -44,17 +46,21 @@ export type SearchParameters =
   | ConditionCostEstimateParams
   | ConditionsParams
   | InsurancesParams
+  | LanguageParams
   | LocationsParams
   | OrganizationsParams
   | ProvidersParams
-  | SpecialtiesParams;
+  | SpecialtiesParams
+  | TreatmentParams;
 
 export type RibbonResponse =
   | Promise<ClinicalAreasResponse>
   | Promise<ConditionCostEstimateResponse>
   | Promise<ConditionsResponse>
   | Promise<InsurancesResponse>
+  | Promise<LanguageResponse>
   | Promise<LocationsResponse>
   | Promise<OrganizationsResponse>
   | Promise<ProvidersResponse>
-  | Promise<SpecialtiesResponse>;
+  | Promise<SpecialtiesResponse>
+  | Promise<TreatmentResponse>;
