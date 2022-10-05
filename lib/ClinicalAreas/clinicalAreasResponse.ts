@@ -1,8 +1,8 @@
 import { ExtResultsResponse } from "../utills/apiResponse";
 import { ClinicalAreasParams } from "./clinicalAreasParams";
-import { ClinicalAreas } from "./clinicalAreas";
+import { ClinicalArea } from "./clinicalArea";
 
 export type ClinicalAreasResponse = ExtResultsResponse<
-  ClinicalAreas,
+  ClinicalArea,
   ClinicalAreasParams
 >;

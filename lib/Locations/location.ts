@@ -1,18 +1,26 @@
+import { Insurance } from "../Insurances";
 import { AddressDetails } from "../utills/types";
 
 export interface Location {
-  name: string;
+  name: string | null;
   uuid: string;
-  faxes: [];
   address: string;
   latitude: number;
   longitude: number;
-  confidence: 2;
-  insurances: [];
+  confidence: number;
+  insurances: Insurance[];
   phone_numbers: {
     phone: string;
-    details: string;
+    detail?: string;
+    details?: string;
   }[];
+  cms_data?: {
+    cms_certification_number?: string;
+    cms_hospital_overall_rating?: number | null;
+    cms_hcahps_overall_hospital_star_rating?: number | null;
+  }[];
+  npis?: string[];
+  distance?: number;
   location_types: string[];
   address_details: AddressDetails;
   google_maps_link: string | null;

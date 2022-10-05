@@ -32,7 +32,7 @@ export interface Provider {
   languages?: string[];
   organizations?: Organization[];
   insurances?: Insurance[];
-  locations?: Location[];
+  locations?: ProviderLocation[];
   online_profiles?: {
     url: string;
   }[];
@@ -65,6 +65,13 @@ export interface Provider {
   };
 }
 
+interface ProviderLocation extends Location {
+  faxes?: {
+    fax: string;
+    details: string;
+  }[];
+}
+
 interface ProviderSpecialty extends Specialty {
-  is_primary: boolean;
+  is_primary?: boolean;
 }

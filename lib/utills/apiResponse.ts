@@ -10,6 +10,7 @@ type ResponseParameters<T> = T & {
   };
   address?: string;
   fields?: string[];
+  APIGatewayToken?: string;
 };
 
 export interface BasicResponse<T> {
