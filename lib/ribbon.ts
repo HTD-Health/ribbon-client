@@ -7,6 +7,8 @@ import { Insurances } from "./Insurances";
 import { Languages } from "./Languages";
 import { Locations } from "./Locations";
 import { Organizations } from "./Organizations";
+import { ProcedureCostEstimate } from "./ProcedureCostEstimate";
+import { Procedures } from "./Procedures";
 import { Providers } from "./Providers";
 import { Specialties } from "./Specialties";
 import { Treatments } from "./Treatments";
@@ -22,6 +24,8 @@ export class Ribbon {
   public readonly Languages: Languages;
   public readonly Locations: Locations;
   public readonly Organizations: Organizations;
+  public readonly ProcedureCostEstimate: ProcedureCostEstimate;
+  public readonly Procedures: Procedures;
   public readonly Providers: Providers;
   public readonly Specialties: Specialties;
   public readonly Treatments: Treatments;
@@ -34,6 +38,8 @@ export class Ribbon {
     this.Languages = new Languages();
     this.Locations = new Locations();
     this.Organizations = new Organizations();
+    this.ProcedureCostEstimate = new ProcedureCostEstimate();
+    this.Procedures = new Procedures();
     this.Providers = new Providers();
     this.Specialties = new Specialties();
     this.Treatments = new Treatments();

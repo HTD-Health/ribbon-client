@@ -5,12 +5,17 @@ import {
 } from "../ConditionCostEstimate";
 import { ConditionsParams, ConditionsResponse } from "../Conditions";
 import { InsurancesParams, InsurancesResponse } from "../Insurances";
-import { LanguageParams, LanguageResponse } from "../Languages";
+import { LanguagesParams, LanguagesResponse } from "../Languages";
 import { LocationsParams, LocationsResponse } from "../Locations";
 import { OrganizationsParams, OrganizationsResponse } from "../Organizations";
+import {
+  ProcedureCostEstimateParams,
+  ProcedureCostEstimateResponse,
+} from "../ProcedureCostEstimate";
+import { ProceduresParams, ProceduresResponse } from "../Procedures";
 import { ProvidersParams, ProvidersResponse } from "../Providers";
 import { SpecialtiesParams, SpecialtiesResponse } from "../Specialties";
-import { TreatmentParams, TreatmentResponse } from "../Treatments";
+import { TreatmentsParams, TreatmentsResponse } from "../Treatments";
 
 export type Options = {
   endpoint: string;
@@ -46,21 +51,25 @@ export type SearchParameters =
   | ConditionCostEstimateParams
   | ConditionsParams
   | InsurancesParams
-  | LanguageParams
+  | LanguagesParams
   | LocationsParams
   | OrganizationsParams
+  | ProcedureCostEstimateParams
+  | ProceduresParams
   | ProvidersParams
   | SpecialtiesParams
-  | TreatmentParams;
+  | TreatmentsParams;
 
 export type RibbonResponse =
   | Promise<ClinicalAreasResponse>
   | Promise<ConditionCostEstimateResponse>
   | Promise<ConditionsResponse>
   | Promise<InsurancesResponse>
-  | Promise<LanguageResponse>
+  | Promise<LanguagesResponse>
   | Promise<LocationsResponse>
   | Promise<OrganizationsResponse>
+  | Promise<ProcedureCostEstimateResponse>
+  | Promise<ProceduresResponse>
   | Promise<ProvidersResponse>
   | Promise<SpecialtiesResponse>
-  | Promise<TreatmentResponse>;
+  | Promise<TreatmentsResponse>;
