@@ -3,8 +3,8 @@ import endpoints from "../endpoints";
 import { buildQuery } from "../buildQuery";
 import { IFindable } from "../utills/iFindable";
 import { get } from "../utills/httpMethods";
-import { LanguageParams } from "./languageParams";
-import { LanguageResponse } from "./languageResponse";
+import { LanguagesParams } from "./languagesParams";
+import { LanguagesResponse } from "./languagesResponse";
 
 export class Languages implements IFindable {
   private readonly endpoint: string;
@@ -12,8 +12,8 @@ export class Languages implements IFindable {
     this.endpoint = endpoints.languages;
   }
 
-  async find(params: LanguageParams) {
-    const data = await get<LanguageResponse>({
+  async find(params: LanguagesParams) {
+    const data = await get<LanguagesResponse>({
       endpoint: this.endpoint,
       query: buildQuery(params),
     });

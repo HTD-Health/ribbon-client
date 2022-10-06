@@ -1,4 +1,4 @@
-import { TreatmentResponse, Ribbon } from "../lib";
+import { TreatmentsResponse, Ribbon } from "../lib";
 import { readFile } from "fs/promises";
 
 describe("Treatments", () => {
@@ -14,7 +14,7 @@ describe("Treatments", () => {
 
     jest
       .spyOn(ribbonClient.Treatments, "find")
-      .mockImplementationOnce((): Promise<TreatmentResponse> => {
+      .mockImplementationOnce((): Promise<TreatmentsResponse> => {
         return Promise.resolve(mockedData);
       });
     const data = await ribbonClient.Treatments.find({ search: "insomnia" });

@@ -6,6 +6,8 @@ export * from "./Insurances";
 export * from "./Languages";
 export * from "./Locations";
 export * from "./Organizations";
+export * from "./ProcedureCostEstimate";
+export * from "./Procedures";
 export * from "./Providers";
 export * from "./Specialties";
 export * from "./Treatments";

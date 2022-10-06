@@ -1,5 +1,5 @@
 import { BasicResponseParams } from "../utills/apiResponseParams";
 
-export interface LanguageParams extends BasicResponseParams {
+export interface ProceduresParams extends BasicResponseParams {
   search?: string;
 }

@@ -1,4 +1,4 @@
-import { LanguageResponse, Ribbon } from "../lib";
+import { LanguagesResponse, Ribbon } from "../lib";
 import { readFile } from "fs/promises";
 
 describe("Languages", () => {
@@ -14,7 +14,7 @@ describe("Languages", () => {
 
     jest
       .spyOn(ribbonClient.Languages, "find")
-      .mockImplementationOnce((): Promise<LanguageResponse> => {
+      .mockImplementationOnce((): Promise<LanguagesResponse> => {
         return Promise.resolve(mockedData);
       });
     const data = await ribbonClient.Languages.find({ search: "occaecat" });

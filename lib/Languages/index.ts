@@ -1,4 +1,4 @@
 export * from "./language";
-export * from "./languageParams";
-export * from "./languageResponse";
+export * from "./languagesParams";
+export * from "./languagesResponse";
 export * from "./languages";
