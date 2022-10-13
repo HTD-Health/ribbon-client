@@ -1,9 +1,10 @@
 {
   "name": "ribbon-client",
-  "version": "0.0.1-beta.30",
+  "version": "0.0.1-beta.31",
   "description": "a client for Ribbon API",
-  "main": "dist/ribbon-client.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/cjs/ribbon-client.js",
+  "module": "./dist/esm/ribbon-client.js",
+  "types": "./dist/esm/index.d.ts",
   "engines": {
     "node": ">=14.17"
   },
@@ -15,7 +16,12 @@
     "watch": "webpack --watch"
   },
   "exports": {
-    ".": "./dist/ribbon-client.js"
+    ".": {
+      "types": "./dist/esm/index.d.ts",
+      "import": "./dist/esm/ribbon-client.js",
+      "require": "./dist/cjs/ribbon-client.js"
+    },
+    "./dist/*": "./dist/*"
   },
   "keywords": [],
   "author": "",

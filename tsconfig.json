@@ -8,11 +8,12 @@
     "preserveConstEnums": true,
     "sourceMap": true,
     "target": "ES5",
-    "outDir": "dist",
+    "outDir": "dist/esm",
     "strict": true,
     "isolatedModules": true,
     "skipDefaultLibCheck": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "moduleResolution": "node",
   },
   "include": ["lib"]
 }
